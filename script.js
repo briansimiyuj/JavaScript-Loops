@@ -1,7 +1,8 @@
-for(let i = 0; i < 5; i++){
+const names = ['Brian', 'Simiyu', 'Michael', 'Wafula']
 
-    console.log('Loop' + i)
 
-    if(i === 3) break
+for (let i = 0; i < names.length; i++) {
+
+    console.log(names[i])
 
 }
