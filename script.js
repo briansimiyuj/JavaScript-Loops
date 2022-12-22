@@ -1,11 +1,10 @@
-const users = {
+let i = 0
 
-    'firstName': 'John',
 
-    'lastName': 'Doe'
+while(i < 10){
+
+    console.log(i)
+
+    i++
 
 }
-
-
-
-for(key in users) console.log(users[key])
