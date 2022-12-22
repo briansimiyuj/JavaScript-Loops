@@ -1,8 +1,11 @@
-const names = ['Brian', 'Simiyu', 'Michael', 'Wafula']
+const users = {
 
+    'firstName': 'John',
 
-for(name of names){
-
-    console.log(name)
+    'lastName': 'Doe'
 
 }
+
+
+
+for(key in users) console.log(users[key])
