@@ -1,9 +1,5 @@
-console.log('Loop')
+for(let i = 0; i < 5; i++){
 
-console.log('Loop')
+    console.log('Loop' + i)
 
-console.log('Loop')
-
-console.log('Loop')
-
-console.log('Loop')
+}
