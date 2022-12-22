@@ -1,7 +1,7 @@
 let i = 0
 
 
-while(i < 10){
+do{
 
     i++
     
@@ -10,3 +10,5 @@ while(i < 10){
     console.log(i)    
 
 }
+
+while(i < 0)
